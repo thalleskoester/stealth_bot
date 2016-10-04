@@ -1,0 +1,161 @@
+/*
+Stelth Botnet - Botnet feita em PHP, HTML5, Jquery e CSS.
+Feita só para motivos de estudo.
+Thalles Della | 2016.
+*/
+/* 
+    Created on : 16/09/2016, 01:54:18
+    Author     : Thalles
+*/
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+img{max-width: 100%; vertical-align: middle; margin: 0;}
+a img {border: none; margin: 0;}
+ul{list-style: none;}
+
+fieldset{border: 0;}
+input,
+select,
+textarea{padding: 10px; width: 100%;}
+input.btn{width: auto; cursor: pointer;}
+
+.container{display: block; width: 100%;}
+.content{display: block; margin: 0 auto;}
+.clear{clear: both;}
+.round{border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;}
+.form-load{display: none;}
+
+/***********************************
+############ BACKGROUND ############
+***********************************/
+.bg-darkblue{background-color: #34495E; color: #FFF;}
+
+/***********************************
+############### FONT ###############
+***********************************/
+.font100{font-weight: 100 !important;}
+.font300{font-weight: 300 !important;}
+.font400{font-weight: 400 !important;}
+.font700{font-weight: 700 !important;}
+.font900{font-weight: 900 !important;}
+
+.font-size1{font-size: 1em;}
+.font-size1b{font-size: 1.5em;}
+.font-size2{font-size: 2em;}
+.font-size2b{font-size: 2.5em;}
+.font-size3{font-size: 3em;}
+.font-size3b{font-size: 3.5em;}
+
+/***********************************
+############### ALIGN ##############
+***********************************/
+.fl-left{float: left;}
+.fl-right{float: right;}
+
+.tx-center{text-align: center;}
+.tx-left{text-align: left;}
+.tx-right{text-align: right;}
+
+/***********************************
+############### FORM ###############
+***********************************/
+.label{display: block; margin-bottom: 15px;}
+.label .legend{display: block; font-size: 0.8em; text-transform: uppercase; font-weight: 300; margin-bottom: 5px;}
+.form-load{width: 25px; margin-top: -2px;}
+
+/***********************************
+############## BUTTOM ##############
+***********************************/
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    padding: 6px 12px;
+    background: #888;
+    font-size: 0.9em;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-shadow: 1px 1px #555;
+}
+
+.btn:hover{background: #555;text-decoration: none;}
+
+.btn-blue{background-color: #0E96E5;text-shadow: 1px 1px #096397;}
+.btn-blue:hover{background-color: #096397;}
+
+.btn-green{background-color: #2ECC71;text-shadow: 1px 1px #008068;}
+.btn-green:hover{background-color: #27AE60;}
+
+.btn-yellow{background-color: #FAAD50;text-shadow: 1px 1px #CC8D41;}
+.btn-yellow:hover{background-color: #CC8D41;}
+
+.btn-red{background-color: #F45563;text-shadow: 1px 1px #C54550;}
+.btn-red:hover{background-color: #C54550;}
+
+/***********************************
+############# TRIGGER #############
+***********************************/
+.trigger{
+    float: left;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #888;
+    font-size: 0.875em;
+    font-weight: 300;
+    color: #fff;
+    border: 1px solid #333;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.trigger p{margin-top: 8px;}
+
+.trigger-ajax{display: none;cursor: pointer;}
+
+.trigger-success{
+    background-color: #DFF0D7;
+    border-color: #2A552A;
+    color: #2A552A;
+}
+
+.trigger-info{
+    background-color: #D8EDF8;
+    border-color: #22526A;
+    color: #22526A;
+}
+
+.trigger-alert{
+    background-color: #FCF8E2;
+    border-color: #675129;
+    color: #675129;
+}
+
+.trigger-error{
+    background-color: #F2DEDE;
+    border-color: #853432;
+    color: #853432;
+}
+
+.trigger-modal{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 480px;
+    max-width: 100%;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 99;
+}
