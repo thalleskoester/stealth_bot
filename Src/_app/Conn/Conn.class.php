@@ -5,7 +5,7 @@
  * Classe abstrata de conexão. Padrão SingleTon.
  * Retorna um objeto PDO pelo método estático getConn();
  * 
- * @copyright (19592)(c) 2016, Thalles Della
+ * @copyright (c) 2016, Thalles Della
  */
 class Conn {
     private static $Host = DB_HOST;
